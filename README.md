@@ -1,7 +1,9 @@
 **ESP32 NTP Clock**	
 
-Welcome to the ESP32 NTP Clock project! This project demonstrates how to create a network-connected clock using an ESP32 microcontroller and Network Time Protocol (NTP) for accurate timekeeping. It's a perfect project for those looking to explore IoT and microcontroller programming.
-**Table of Contents**
+Welcome to the ESP32 NTP Clock project! This project demonstrates how to create a network-connected clock using an ESP32 microcontroller and Network Time Protocol (NTP) for accurate timekeeping. It's a perfect project for exploring IoT and microcontroller programming.
+
+**Table of Contents**  
+
 •	Overview
 •	Components Required
 •	Circuit Diagram
@@ -9,17 +11,23 @@ Welcome to the ESP32 NTP Clock project! This project demonstrates how to create 
 •	Setup and Installation
 •	How It Works
 •	Video Tutorial
-**Overview**
+
+**Overview**  
+
 This project uses the ESP32 to fetch the current time from an NTP server and display it on an LCD screen. The ESP32 connects to a Wi-Fi network to access the NTP server, ensuring precise timekeeping.
 Components Required
 •	ESP32 Development Board
 •	LCD Display with I2C interface (16x2)
 •	Breadboard and Jumper Wires
-**Circuit Diagram**
+
+**Circuit Diagram**   
+
 The circuit is simple to set up:
 1	Connect the VCC and GND of the LCD to the 5V and GND pins of the ESP32.
 2	Connect the SDA and SCL pins of the LCD to the corresponding pins on the ESP32 (usually GPIO 21 for SDA and GPIO 22 for SCL).
-**Code**
+
+**Code**  
+
 Here's the code you need to upload to your ESP32:
 #include <WiFi.h>
 #include <Wire.h>
