@@ -1,4 +1,5 @@
-**ESP32 NTP Clock**
+**ESP32 NTP Clock**	
+
 Welcome to the ESP32 NTP Clock project! This project demonstrates how to create a network-connected clock using an ESP32 microcontroller and Network Time Protocol (NTP) for accurate timekeeping. It's a perfect project for those looking to explore IoT and microcontroller programming.
 **Table of Contents**
 •	Overview
